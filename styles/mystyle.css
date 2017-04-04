@@ -1,0 +1,36 @@
+
+.flex-container {
+                  display:flex;
+                  flex-wrap: nowrap;
+                  flex-direction: row-reverse;
+                  justify-content: center;
+                  width: 400px;
+                  height: auto;
+                  background-color: gray;
+                  border: 3px solid #73AD21;
+}
+
+
+
+.flex-container-logo {
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+
+
+}
+
+
+
+
+
+nav {
+      color: #89e0f0;
+      margin:5px;
+      padding: 25px;
+      background-color:transparent;
+      text-decoration:gray}
+        a:visited {color:pink; background-color:transparent; text-decoration:none}
+        a:hover   {color:yellow; background-color:transparent; text-decoration:underline}
+        a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+}

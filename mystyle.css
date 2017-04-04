@@ -1,0 +1,128 @@
+body {
+
+}
+
+
+.flex-container {
+                  display:flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+                  justify-content: space-around;
+                  width: auto;
+                  height: 200px;
+                  position: relative;
+                  align-items: center;
+                  background-color: gray;
+                  border: 15px solid #73AD21;
+}
+
+
+
+.flex-container-logo {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 20px;
+          position: relative;
+
+
+}
+
+.flex-container-title {
+                        position: relative;
+                        margin: auto;
+
+}
+
+.flex-container-sub-title {
+                            position: relative;
+                            margin: auto;
+
+
+}
+
+.flex-container-contact {
+                          position: relative;
+                          margin: auto;
+}
+
+
+
+
+.nav {
+      color: #89e0f0;
+      margin:20px;
+      padding: 25px;
+      background-color:transparent;
+      text-decoration:gray}
+        a:visited {color:pink; background-color:transparent; text-decoration:none}
+        a:hover   {color:yellow; background-color:transparent; text-decoration:underline}
+        a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+}
+
+
+
+
+.parent-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+
+
+}
+
+
+.child-content-p1-the-story-of-us {
+                                    display: flex;
+                                    width: 620px;
+                                    height: 680px;
+                                    position: relative;
+                                    margin: auto;
+                                    flex-direction: column;
+                                    background-color: gray;
+                                    flex-wrap: wrap;
+                                    justify-content:space-around;
+
+}
+
+
+
+.child-content-p2-our-instructors {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    margin: auto;
+                                    position: relative;
+                                    justify-content:space-around;
+                                    width: 350px;
+                                    height: 680px;
+                                    background-color: gray;
+                                    border: 15px solid #73AD21;
+
+}
+
+.child-content-instructor-a {
+                              display: flex;
+                              flex-wrap: wrap;
+                              flex-direction: column;
+                              position: relative;;
+                              justify-content: flex-end;
+
+  }
+
+  .child-content-instructor-b {
+                                display: flex;
+                                flex-wrap: wrap;
+                                flex-direction: column;
+                                position: relative;;
+                                justify-content: flex-end;
+
+  }
+
+   .child-content-instructor-c {
+                                  display: flex;
+                                  flex-wrap: wrap;
+                                  flex-direction: column;
+                                  position: relative;;
+                                  justify-content: flex-end;
+
+}
