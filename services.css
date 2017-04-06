@@ -1,21 +1,4 @@
-body {
 
-}
-
-h1 {
-    size: 225%;
-    text-decoration: underline;
-}
-h2 {
-    size: 150px;
-}
-h3 {
-    size: 99px;
-}
-p {
-    size: 30px;
-
-}
 
 .flex-container {
                   display:flex;
@@ -71,7 +54,7 @@ p {
         a:visited {color:pink; background-color:transparent; text-decoration:none}
         a:hover   {color:yellow; background-color:transparent; text-decoration:underline}
         a:active  {color:yellow; background-color:transparent; text-decoration:underline}
-}
+
 
 
 
@@ -80,9 +63,6 @@ p {
         display: flex;
         flex-wrap: nowrap;
         padding:15px;
-
-
-
 }
 
 

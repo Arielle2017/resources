@@ -1,20 +1,4 @@
-body {
 
-}
-
-h1 {
-    size: 250px;
-}
-h2 {
-    size: 150px;
-}
-h3 {
-    size: 99px;
-}
-p {
-    size: 30px;
-
-}
 
 .flex-container {
                   display:flex;
@@ -66,7 +50,7 @@ p {
       margin:20px;
       padding: 25px;
       background-color:transparent;
-      text-decoration:gray}
+      text-decoration:gray
         a:visited {color:pink; background-color:transparent; text-decoration:none}
         a:hover   {color:yellow; background-color:transparent; text-decoration:underline}
         a:active  {color:yellow; background-color:transparent; text-decoration:underline}
@@ -78,7 +62,7 @@ p {
 .parent-content {
         display: flex;
         flex-wrap: nowrap;
-        align-items: ;
+        align-items:flex-start;
 
 
 }
@@ -135,7 +119,7 @@ p {
                                   display: flex;
                                   flex-wrap: wrap;
                                   flex-direction: column;
-                                  position: relative;;
+                                  position: relative;
                                   justify-content: flex-end;
 
 }
