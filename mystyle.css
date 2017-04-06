@@ -2,10 +2,23 @@ body {
 
 }
 
+h1 {
+    size: 250px;
+}
+h2 {
+    size: 150px;
+}
+h3 {
+    size: 99px;
+}
+p {
+    size: 30px;
+
+}
 
 .flex-container {
                   display:flex;
-                  flex-wrap: wrap;
+                  flex-wrap: nowrap;
                   flex-direction: row;
                   justify-content: space-around;
                   width: auto;
@@ -64,8 +77,8 @@ body {
 
 .parent-content {
         display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
+        flex-wrap: nowrap;
+        align-items: ;
 
 
 }
