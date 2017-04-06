@@ -50,19 +50,24 @@
       margin:20px;
       padding: 25px;
       background-color:transparent;
-      text-decoration:gray
+      text-decoration:gray}
         a:visited {color:pink; background-color:transparent; text-decoration:none}
         a:hover   {color:yellow; background-color:transparent; text-decoration:underline}
         a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+
+.images {
+          display: flex;
+          align-items: center;
+          margin: auto;
 }
-
-
 
 
 .parent-content {
         display: flex;
         flex-wrap: nowrap;
-        align-items:flex-start;
+        align-items: center;
+        margin: auto;
 
 
 }
