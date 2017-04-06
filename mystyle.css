@@ -4,11 +4,11 @@
                   display:flex;
                   flex-wrap: nowrap;
                   flex-direction: row;
-                  justify-content: space-around;
+                  justify-content: center;
                   width: auto;
                   height: 200px;
                   position: relative;
-                  align-items: center;
+                  
                   background-color: gray;
                   border: 15px solid #73AD21;
 }
